@@ -24,32 +24,12 @@
          
           <style>
 img {
-  width: 200%;
+  width: 150%;
 }
 </style>     
           <img src="logo_friquifund2.png" alt="friquifund">          
           <!-- <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>  -->
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-          
-                <div class="row">
-        <div class="navbar">
-          <div class="navbar-inner">
-            <ul class="nav">
-              {% navigation root %}
-            </ul>
-          </div>
-        </div>
-      </div>
-      {% if_navigation sub %}
-        <div class="row">
-          <ul class="nav nav-pills">
-            {% navigation sub %}
-          </ul>
-        </div>
-      {% endif_navigation %}
-
-
-
           
         </header>
     </div>
