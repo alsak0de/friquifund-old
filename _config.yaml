@@ -2,4 +2,4 @@ remote_theme: pages-themes/slate@v0.2.0
 title: [friquifund](https://raw.githubusercontent.com/alsak0de/friquifund/main/logo_friquifund.png)
 description: [Helping geeks growth]
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
